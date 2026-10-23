@@ -24,6 +24,10 @@ Construo projetos **do começo ao fim**: código, testes, publicação e versão
 Tudo o que está abaixo roda de verdade, com link para abrir agora, e cada
 lançamento sai com tag, changelog e arquivos com a versão no nome.
 
+> 🔒 Os repositórios são privados. Os projetos estão publicados nos links
+> abaixo, e o código pode ser mostrado sob solicitação, numa entrevista ou
+> avaliação técnica.
+
 ## 🚀 Projetos em destaque
 
 ### 🛡️ HackQuiz — aprender cibersegurança, em português
@@ -40,14 +44,12 @@ grep, sub-rede, permissões Linux, TLS…) com números gerados para não decora
 - **10 suítes de teste** num runner próprio, auditoria de **contraste WCAG AA** e de acessibilidade por teclado, e um auditor que reprova a documentação quando ela diverge do código.
 - Sem build step e sem framework: abre com duplo-clique e funciona offline.
 
-<sub>Código privado · demonstração pública no link acima.</sub>
-
 ---
 
 ### 🌀 RPG Espiritual — a vida inteira, e o que vem depois
-**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · **[⬇ Instalador para Windows](https://github.com/O-Azevedo/RPG_espiritual/releases/latest)** · Godot 4 · GDScript · [código](https://github.com/O-Azevedo/RPG_espiritual)
+**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · Godot 4 · GDScript · instalador para Windows
 
-<a href="https://github.com/O-Azevedo/RPG_espiritual"><img src="img/rpg-mapa.png" alt="RPG Espiritual: personagem na cidade em pixel art, com a ficha de atributos e o diário de acontecimentos" width="100%"></a>
+<a href="https://rpg-espiritual.vercel.app"><img src="img/rpg-mapa.png" alt="RPG Espiritual: personagem na cidade em pixel art, com a ficha de atributos e o diário de acontecimentos" width="100%"></a>
 
 RPG 2D em pixel art no estilo BitLife: você vive meio ano por vez, estuda,
 trabalha, forma família e escolhe um caminho espiritual; depois da morte o jogo
@@ -57,7 +59,7 @@ exportação para web e releases versionadas.
 ---
 
 ### ⚔️ Sombraluz: Horda Arcana · 🪓 Runas & Hordas
-**[▶ Jogar Sombraluz](https://sombraluz.vercel.app)** ([código](https://github.com/O-Azevedo/sombraluz)) · **[▶ Jogar Runas & Hordas](https://runas-e-hordas.vercel.app)** · HTML5 Canvas · Capacitor · Electron
+**[▶ Jogar Sombraluz](https://sombraluz.vercel.app)** · **[▶ Jogar Runas & Hordas](https://runas-e-hordas.vercel.app)** · HTML5 Canvas · Capacitor · Electron
 
 Dois survivor-likes para celular e navegador: você só move o personagem, as
 armas atacam sozinhas, e a cada nível escolhe uma carta. Entre as partidas há
@@ -66,8 +68,6 @@ classes, equipamentos com raridade, missões e loja.
 - JavaScript puro, sem engine; o mesmo código vira **site, APK Android e instalador Windows**.
 - Lógica do jogo coberta por testes (26 e 66) e uma **simulação com bot** para testar o balanceamento em velocidade acelerada.
 - Pipeline de release no GitHub Actions: cada tag publica o APK, o `.exe` e o build web.
-
-<sub>Runas & Hordas: código privado · demonstração pública.</sub>
 
 ---
 
@@ -90,4 +90,4 @@ isso funcionar é a parte que continua sendo minha: decidir, verificar e manter.
 
 ## 📫 Contato
 
-Abra uma [issue](https://github.com/O-Azevedo/RPG_espiritual/issues) em qualquer projeto público ou me chame pelo GitHub.
+Quer ver o código de algum projeto ou conversar sobre uma vaga? Me chame pelo GitHub.
