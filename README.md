@@ -31,11 +31,13 @@ e versão. Tudo o que está abaixo roda de verdade, com link para abrir agora.
 
 **[▶ Abrir o app](https://hackquiz-blackbox.vercel.app)** · HTML/CSS/JS puro · Firebase · Electron · Vercel
 
-<a href="https://hackquiz-blackbox.vercel.app"><img src="img/hackquiz.png" alt="Tela inicial do HackQuiz: os quatro níveis de conhecimento, de Inicial a Especialista, e o painel de progresso" width="100%"></a>
-
 Plataforma de estudo de segurança da informação: **173 perguntas em 9 matérias**,
 cada uma com uma explicação pesquisada e fontes oficiais citadas, **30 exercícios
 práticos** e um vocabulário de 57 termos.
+
+
+<a href="https://hackquiz-blackbox.vercel.app"><img src="img/hackquiz.png" alt="Tela inicial do HackQuiz: os quatro níveis de conhecimento, de Inicial a Especialista, e o painel de progresso" width="100%"></a>
+
 
 **O que ele ensina**
 
