@@ -35,10 +35,6 @@ Plataforma de estudo de segurança da informação: **173 perguntas em 9 matéri
 cada uma com uma explicação pesquisada e fontes oficiais citadas, **30 exercícios
 práticos** e um vocabulário de 57 termos.
 
-
-<a href="https://hackquiz-blackbox.vercel.app"><img src="img/hackquiz.png" alt="Tela inicial do HackQuiz: os quatro níveis de conhecimento, de Inicial a Especialista, e o painel de progresso" width="100%"></a>
-
-
 **O que ele ensina**
 
 | Área | Exemplos |
@@ -48,6 +44,8 @@ práticos** e um vocabulário de 57 termos.
 | Criptografia | hash, assinatura digital, certificados TLS, ponta a ponta |
 | Forense, GRC e Direito Digital | cadeia de custódia, ISO 31000, matriz de risco, LGPD e escopo de pentest |
 | Linux e Windows | `/etc/passwd`, SUID, crontab, `ps`, `ss`, tarefas agendadas |
+
+<a href="https://hackquiz-blackbox.vercel.app"><img src="img/hackquiz.png" alt="Tela inicial do HackQuiz: os quatro níveis de conhecimento, de Inicial a Especialista, e o painel de progresso" width="100%"></a>
 
 **Exercícios sobre artefatos reais, não decoreba:** ler a saída do `nmap`, achar
 o IOC num log com `grep`, auditar os `Set-Cookie` de um login, achar a conta com
