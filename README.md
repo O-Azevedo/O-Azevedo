@@ -86,15 +86,15 @@ exportação para web e releases versionadas.
 
 **[▶ Jogar no navegador](https://sombraluz.vercel.app)** · HTML5 Canvas · JavaScript puro · Capacitor · Electron
 
+Survivor-like para celular e navegador: você só move o personagem, as armas
+atiram sozinhas, e a cada nível escolhe uma carta. Entre as partidas há classes,
+equipamentos com raridade, missões e loja.
+
 <p align="center">
   <a href="https://sombraluz.vercel.app"><img src="img/sombraluz-menu.png" alt="Sombraluz: menu com o personagem Peregrino, rank, moedas e as abas de jogo" width="38%"></a>
   &nbsp;&nbsp;
   <a href="https://sombraluz.vercel.app"><img src="img/sombraluz-jogo.png" alt="Sombraluz: partida aos 1:32, nível 4, 146 abates, o personagem cercado de cristais e inimigos" width="38%"></a>
 </p>
-
-Survivor-like para celular e navegador: você só move o personagem, as armas
-atiram sozinhas, e a cada nível escolhe uma carta. Entre as partidas há classes,
-equipamentos com raridade, missões e loja.
 
 - Sem engine: o mesmo código vira **site, APK Android e instalador Windows**.
 - Lógica coberta por testes e por uma **simulação com bot** que joga em velocidade acelerada para testar o balanceamento.
