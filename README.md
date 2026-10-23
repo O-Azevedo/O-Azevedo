@@ -27,7 +27,7 @@ e versão. Tudo o que está abaixo roda de verdade, com link para abrir agora.
 > abaixo, e o código pode ser mostrado sob solicitação, numa entrevista ou
 > avaliação técnica.
 
-## 🛡️ HackQuiz — aprender cibersegurança, em português
+## 🛡️ HackQuiz 
 
 **[▶ Abrir o app](https://hackquiz-blackbox.vercel.app)** · HTML/CSS/JS puro · Firebase · Electron · Vercel
 
@@ -66,7 +66,7 @@ que reprova a documentação quando ela diverge do código.
 
 ---
 
-## 🌀 RPG Espiritual — a vida inteira, e o que vem depois
+## 🌀 RPG Espiritual 
 
 **[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · Godot 4 · GDScript · instalador para Windows
 
@@ -81,7 +81,7 @@ exportação para web e releases versionadas.
 
 ---
 
-## ⚔️ Sombraluz: Horda Arcana
+## ⚔️ Sombraluz
 
 **[▶ Jogar no navegador](https://sombraluz.vercel.app)** · HTML5 Canvas · JavaScript puro · Capacitor · Electron
 
