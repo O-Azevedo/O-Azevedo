@@ -70,12 +70,13 @@ que reprova a documentação quando ela diverge do código.
 
 **[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · Godot 4 · GDScript · instalador para Windows
 
-<a href="https://rpg-espiritual.vercel.app"><img src="img/rpg-cidade.png" alt="RPG Espiritual: o personagem na cidade em pixel art, com a ficha de atributos, o diário de acontecimentos e as abas de ação" width="100%"></a>
-
 RPG 2D em pixel art no estilo BitLife: você vive meio ano por vez, estuda,
 trabalha, forma família e escolhe um caminho espiritual; depois da morte o jogo
 continua no plano espiritual, até reencarnar. Instalador próprio (Inno Setup),
 exportação para web e releases versionadas.
+
+<a href="https://rpg-espiritual.vercel.app"><img src="img/rpg-cidade.png" alt="RPG Espiritual: o personagem na cidade em pixel art, com a ficha de atributos, o diário de acontecimentos e as abas de ação" width="100%"></a>
+
 
 <a href="https://rpg-espiritual.vercel.app"><img src="img/rpg-mapa.png" alt="Mapa completo da cidade do RPG Espiritual, com casas, templos, cemitério, praça e praia" width="100%"></a>
 
