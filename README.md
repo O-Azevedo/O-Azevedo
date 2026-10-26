@@ -1,3 +1,5 @@
+<img src="./blackhole1.png" alt="blackhole" width="60" height="60"> <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=8D72DA&width=435&lines=Hi+there!" alt="Typing SVG" /></a>
+
 <h1 align="center">Saudações, eu sou O Azevedo </h1>
 <h2 align="center"> abaixo são coisas que sei fazer: </h2>
 
