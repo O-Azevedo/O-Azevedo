@@ -1,4 +1,4 @@
-<h1 align="center">Olá, eu sou o O-Azevedo 👋</h1>
+<h1 align="center">Saudações,  </h1>
 
 <p align="center">
   <b>Cibersegurança e desenvolvimento web</b> · jogos · engenharia assistida por IA<br>
