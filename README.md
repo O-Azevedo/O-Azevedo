@@ -1,5 +1,5 @@
 <h1 align="center">Saudações, eu sou O Azevedo
- align="center"> abaixo são coisas que sei fazer:</h2>
+<h1> abaixo são coisas que sei fazer:</h2>
 
 <p align="center">
   <b>Cibersegurança e desenvolvimento web</b> · jogos · engenharia assistida por IA<br>
