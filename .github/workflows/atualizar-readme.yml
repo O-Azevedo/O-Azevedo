@@ -1,0 +1,40 @@
+name: Atualizar README
+
+# Todo dia (e quando rodado à mão) confere a versão, a data da última release,
+# os commits dos últimos 30 dias de cada projeto e os números do HackQuiz, e
+# reescreve só os trechos <!-- auto:... --> do README. Só faz commit se algo mudou.
+#
+# Os projetos são privados: para ler as releases e os commits, o workflow usa o
+# secret PROFILE_TOKEN (token fine-grained, só leitura de Contents e Metadata dos
+# repositórios hackquiz, sombraluz e RPG_espiritual). Sem ele, atualiza só a
+# versão que os sites publicam.
+on:
+  schedule:
+    - cron: '0 9 * * *'   # 06:00 em Brasília
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-readme
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/atualizar-readme.mjs
+        env:
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+      - name: Commit se o README mudou
+        run: |
+          git diff --quiet README.md && exit 0
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -am 'README: atualização automática dos projetos'
+          git push

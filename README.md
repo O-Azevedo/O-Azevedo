@@ -1,5 +1,4 @@
-<h1 align="center">Saudações, eu sou O Azevedo </h1>
-<h2 align="center"> abaixo são coisas que sei fazer: </h2>
+<h1 align="center">Saudações, eu sou O Azevedo</h1>
 
 <p align="center">
   <b>Cibersegurança e desenvolvimento web</b> · jogos · engenharia assistida por IA<br>
@@ -19,24 +18,46 @@
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=fff">
 </p>
 
+<p align="center">
+  <a href="#️-hackquiz">HackQuiz</a> ·
+  <a href="#-rpg-espiritual">RPG Espiritual</a> ·
+  <a href="#️-sombraluz">Sombraluz</a> ·
+  <a href="#-outros-projetos">Outros projetos</a> ·
+  <a href="#-como-eu-trabalho-engenharia-assistida-por-ia">Como eu trabalho</a>
+</p>
+
 ---
 
 Construo projetos **do começo ao fim**: código, testes, segurança, publicação
 e versão. Tudo o que está abaixo roda de verdade, com link para abrir agora.
 
+## 📡 Em desenvolvimento agora
+<!-- auto:status -->
+
+| Projeto | Versão | Lançada em | Commits (30 dias) | Site |
+|---|---|---|---|---|
+| **[HackQuiz](https://hackquiz-blackbox.vercel.app)** | v1.5.1 | 23/10/2026 | 124 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fhackquiz-blackbox.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://hackquiz-blackbox.vercel.app) |
+| **[RPG Espiritual](https://rpg-espiritual.vercel.app)** | v0.69.0 | 24/10/2026 | 139 | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
+| **[Sombraluz](https://sombraluz.vercel.app)** | v0.38.0 | 24/10/2026 | 122 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.vercel.app) |
+
+<!-- /auto:status -->
+<sub>Esta tabela e os números dos projetos se atualizam sozinhos todo dia, por um
+GitHub Action deste repositório. Última mudança: <!-- auto:atualizado -->29/10/2026<!-- /auto:atualizado -->.</sub>
+
 > 🔒 Os repositórios são privados. Os projetos estão publicados nos links
-> abaixo, e o código pode ser mostrado sob solicitação, numa entrevista ou
+> acima, e o código pode ser mostrado sob solicitação, numa entrevista ou
 > avaliação técnica.
 
-## 🛡️ HackQuiz 
+## 🛡️ HackQuiz
 
-**[▶ Abrir o app](https://hackquiz-blackbox.vercel.app)** · HTML/CSS/JS puro · Firebase · Electron · Vercel
+**[▶ Abrir o app](https://hackquiz-blackbox.vercel.app)** · <!-- auto:hackquiz-versao -->v1.5.1<!-- /auto:hackquiz-versao --> · HTML/CSS/JS puro · Firebase · Electron · Vercel
 
-Plataforma de estudo de segurança da informação: **173 perguntas em 9 matérias**,
-cada uma com uma explicação pesquisada e fontes oficiais citadas, **30 exercícios
-práticos** e um vocabulário de 57 termos.
-
-**O que ele ensina**
+Plataforma de estudo de segurança da informação em português:
+**<!-- auto:hackquiz-perguntas -->173<!-- /auto:hackquiz-perguntas --> perguntas em <!-- auto:hackquiz-materias -->9<!-- /auto:hackquiz-materias --> matérias**,
+cada uma com uma explicação pesquisada e fontes oficiais citadas,
+**<!-- auto:hackquiz-exercicios -->30<!-- /auto:hackquiz-exercicios --> exercícios práticos** e um vocabulário de
+<!-- auto:hackquiz-termos -->57<!-- /auto:hackquiz-termos --> termos. A proficiência é medida por competência, e a
+repetição espaçada traz de volta o que você errou.
 
 | Área | Exemplos |
 |---|---|
@@ -53,7 +74,11 @@ o IOC num log com `grep`, auditar os `Set-Cookie` de um login, achar a conta com
 UID 0 que não se chama `root`. Os números mudam a cada tentativa, e cada etapa é
 verificada.
 
+<details>
+<summary><b>Ver o vocabulário</b> (verbete Phishing)</summary>
+<br>
 <a href="https://hackquiz-blackbox.vercel.app"><img src="img/hackquiz-termo.png" alt="Verbete Phishing aberto: explicação em linguagem comum, o que é, na prática, onde as pessoas se confundem e as fontes da CISA e da FTC" width="100%"></a>
+</details>
 
 **A segurança do próprio app**
 
@@ -67,29 +92,38 @@ que reprova a documentação quando ela diverge do código.
 
 ---
 
-## 🌀 RPG Espiritual 
+## 🌀 RPG Espiritual
 
-**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · Godot 4 · GDScript · instalador para Windows
+**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · <!-- auto:rpg-versao -->v0.69.0<!-- /auto:rpg-versao --> · Godot 4 · GDScript · instalador para Windows
 
 RPG 2D em pixel art no estilo BitLife: você vive meio ano por vez, estuda,
-trabalha, forma família e escolhe um caminho espiritual; depois da morte o jogo
-continua no plano espiritual, até reencarnar. Instalador próprio (Inno Setup),
-exportação para web e releases versionadas.
+trabalha, forma família e escolhe um caminho espiritual. Depois da morte, o jogo
+continua no plano espiritual, um lugar de trabalho e aprendizado, até reencarnar.
+
+- **Duas fases jogáveis:** a vida inteira e o pós-vida, com Abrigo, Umbral, Colônia e falanges.
+- **Conteúdo em dados:** eventos, empregos, falas, missões e ervas em JSON, separados do código.
+- **Testado sem abrir o jogo:** o CI simula 300 vidas a cada pull request e roda mais 11 suítes de regras, incluindo a compatibilidade com saves antigos.
+- **Cuidado com o jogador:** o pós-vida nunca é recompensa por morrer, e o contato do CVV (188) fica sempre no menu.
+- Instalador próprio (Inno Setup), exportação para web e releases versionadas.
 
 <a href="https://rpg-espiritual.vercel.app"><img src="img/rpg-cidade.png" alt="RPG Espiritual: o personagem na cidade em pixel art, com a ficha de atributos, o diário de acontecimentos e as abas de ação" width="100%"></a>
 
-
+<details>
+<summary><b>Ver o mapa da cidade</b></summary>
+<br>
 <a href="https://rpg-espiritual.vercel.app"><img src="img/rpg-mapa.png" alt="Mapa completo da cidade do RPG Espiritual, com casas, templos, cemitério, praça e praia" width="100%"></a>
+</details>
 
 ---
 
 ## ⚔️ Sombraluz
 
-**[▶ Jogar no navegador](https://sombraluz.vercel.app)** · HTML5 Canvas · JavaScript puro · Capacitor · Electron
+**[▶ Jogar no navegador](https://sombraluz.vercel.app)** · <!-- auto:sombraluz-versao -->v0.38.0<!-- /auto:sombraluz-versao --> · HTML5 Canvas · JavaScript puro · Capacitor · Electron
 
 Survivor-like para celular e navegador: você só move o personagem, as armas
-atiram sozinhas, e a cada nível escolhe uma carta. Entre as partidas há classes,
-equipamentos com raridade, missões e loja.
+atiram sozinhas, e a cada nível escolhe uma carta. Entre as partidas há uma
+cidade com ferraria, mercado e guildas, classes, equipamentos com raridade e
+nível, missões e ranking online.
 
 <p align="center">
   <a href="https://sombraluz.vercel.app"><img src="img/sombraluz-menu.png" alt="Sombraluz: menu com o personagem Peregrino, rank, moedas e as abas de jogo" width="38%"></a>
@@ -97,9 +131,10 @@ equipamentos com raridade, missões e loja.
   <a href="https://sombraluz.vercel.app"><img src="img/sombraluz-jogo.png" alt="Sombraluz: partida aos 1:32, nível 4, 146 abates, o personagem cercado de cristais e inimigos" width="38%"></a>
 </p>
 
-- Sem engine: o mesmo código vira **site, APK Android e instalador Windows**.
-- Lógica coberta por testes e por uma **simulação com bot** que joga em velocidade acelerada para testar o balanceamento.
-- Cada tag publica o APK, o `.exe` e o build web pelo GitHub Actions.
+- Sem engine: o mesmo código vira **site, app Android (Capacitor) e instalador Windows (Electron)**.
+- Lógica coberta por mais de 130 testes e por uma **simulação com bot** que joga em velocidade acelerada para testar o balanceamento.
+- **Ranking online protegido pelas regras do Firestore:** cada jogador só escreve a própria pontuação, só para cima e dentro de limites plausíveis.
+- Cada tag publica o instalador `.exe` e o build web pelo GitHub Actions; o APK volta junto com a versão 1.0.
 
 ---
 
@@ -120,7 +155,9 @@ isso funcionar é a parte que continua sendo minha: decidir, verificar e manter.
 - **Nada entra sem verificação:** testes automatizados, auditorias de contraste e acessibilidade, testes de ataque às regras de segurança e CI em todo pull request.
 - **Agentes com papéis separados** no HackQuiz: pesquisa de currículo, autoria, revisão que reabre as fontes e auditoria. Quem escreve não aprova o próprio trabalho.
 - **Fluxo de produção:** branch, pull request, CI verde, versão semântica e release com os arquivos de cada versão.
+- **Até este perfil é automatizado:** a tabela do topo e os números do HackQuiz são lidos dos projetos todo dia, em vez de envelhecerem à mão.
 
 ## 📫 Contato
 
-Quer ver o código de algum projeto ou conversar sobre uma vaga? Me chame pelo GitHub.
+Quer ver o código de algum projeto ou conversar sobre uma vaga?
+[Abra uma issue neste repositório](https://github.com/O-Azevedo/O-Azevedo/issues/new) que eu respondo.
