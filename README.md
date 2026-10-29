@@ -13,7 +13,6 @@
   <img alt="Godot" src="https://img.shields.io/badge/Godot_4-478CBF?style=flat-square&logo=godotengine&logoColor=fff">
   <img alt="Unity" src="https://img.shields.io/badge/Unity_6-000?style=flat-square&logo=unity&logoColor=fff">
   <img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=fff">
-  <img alt="Electron" src="https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=fff">
   <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=fff">
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=fff">
 </p>
@@ -50,7 +49,7 @@ GitHub Action deste repositório. Última mudança: <!-- auto:atualizado -->29/1
 
 ## 🛡️ HackQuiz
 
-**[▶ Abrir o app](https://hackquiz-blackbox.vercel.app)** · <!-- auto:hackquiz-versao -->v1.5.1<!-- /auto:hackquiz-versao --> · HTML/CSS/JS puro · Firebase · Electron · Vercel
+**[▶ Abrir o app](https://hackquiz-blackbox.vercel.app)** · <!-- auto:hackquiz-versao -->v1.5.1<!-- /auto:hackquiz-versao --> · HTML/CSS/JS puro · Firebase · Vercel
 
 Plataforma de estudo de segurança da informação em português:
 **<!-- auto:hackquiz-perguntas -->173<!-- /auto:hackquiz-perguntas --> perguntas em <!-- auto:hackquiz-materias -->9<!-- /auto:hackquiz-materias --> matérias**,
@@ -84,7 +83,7 @@ verificada.
 
 - **Sem backend:** as regras do Firestore são a única barreira, e uma suíte de **133 ataques no emulador** prova os dois lados, com todo ataque negado e todo uso legítimo aceito.
 - Achei e corrigi falhas reais: um **XSS armazenado** e uma **injeção de código por U+2028** num gerador de trechos (o caractere invisível fazia texto da comunidade virar código).
-- **CSP sem `unsafe-inline`**, cabeçalhos anti-clickjacking e HSTS, e a janela desktop que não navega para fora do app.
+- **CSP sem `unsafe-inline`**, cabeçalhos anti-clickjacking e HSTS.
 
 **Engenharia:** 10 suítes de teste num runner próprio, auditoria de **contraste
 WCAG AA** e de acessibilidade por teclado, CI em todo pull request, e um auditor
@@ -94,7 +93,7 @@ que reprova a documentação quando ela diverge do código.
 
 ## 🌀 RPG Espiritual
 
-**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · <!-- auto:rpg-versao -->v0.69.0<!-- /auto:rpg-versao --> · Godot 4 · GDScript · instalador para Windows
+**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · <!-- auto:rpg-versao -->v0.69.0<!-- /auto:rpg-versao --> · Godot 4 · GDScript · exportação web
 
 RPG 2D em pixel art no estilo BitLife: você vive meio ano por vez, estuda,
 trabalha, forma família e escolhe um caminho espiritual. Depois da morte, o jogo
@@ -104,7 +103,7 @@ continua no plano espiritual, um lugar de trabalho e aprendizado, até reencarna
 - **Conteúdo em dados:** eventos, empregos, falas, missões e ervas em JSON, separados do código.
 - **Testado sem abrir o jogo:** o CI simula 300 vidas a cada pull request e roda mais 11 suítes de regras, incluindo a compatibilidade com saves antigos.
 - **Cuidado com o jogador:** o pós-vida nunca é recompensa por morrer, e o contato do CVV (188) fica sempre no menu.
-- Instalador próprio (Inno Setup), exportação para web e releases versionadas.
+- Exportado do Godot para a web: roda no navegador, sem instalar nada, com releases versionadas.
 
 <a href="https://rpg-espiritual.vercel.app"><img src="img/rpg-cidade.png" alt="RPG Espiritual: o personagem na cidade em pixel art, com a ficha de atributos, o diário de acontecimentos e as abas de ação" width="100%"></a>
 
@@ -118,7 +117,7 @@ continua no plano espiritual, um lugar de trabalho e aprendizado, até reencarna
 
 ## ⚔️ Sombraluz
 
-**[▶ Jogar no navegador](https://sombraluz.vercel.app)** · <!-- auto:sombraluz-versao -->v0.38.0<!-- /auto:sombraluz-versao --> · HTML5 Canvas · JavaScript puro · Capacitor · Electron
+**[▶ Jogar no navegador](https://sombraluz.vercel.app)** · <!-- auto:sombraluz-versao -->v0.38.0<!-- /auto:sombraluz-versao --> · HTML5 Canvas · JavaScript puro · Firebase · PWA
 
 Survivor-like para celular e navegador: você só move o personagem, as armas
 atiram sozinhas, e a cada nível escolhe uma carta. Entre as partidas há uma
@@ -131,10 +130,10 @@ nível, missões e ranking online.
   <a href="https://sombraluz.vercel.app"><img src="img/sombraluz-jogo.png" alt="Sombraluz: partida aos 1:32, nível 4, 146 abates, o personagem cercado de cristais e inimigos" width="38%"></a>
 </p>
 
-- Sem engine: o mesmo código vira **site, app Android (Capacitor) e instalador Windows (Electron)**.
+- Sem engine nem framework: Canvas e JavaScript puro, e um **PWA** que se instala pelo navegador e roda offline.
 - Lógica coberta por mais de 130 testes e por uma **simulação com bot** que joga em velocidade acelerada para testar o balanceamento.
 - **Ranking online protegido pelas regras do Firestore:** cada jogador só escreve a própria pontuação, só para cima e dentro de limites plausíveis.
-- Cada tag publica o instalador `.exe` e o build web pelo GitHub Actions; o APK volta junto com a versão 1.0.
+- Cada tag gera o build web versionado pelo GitHub Actions, e o site na Vercel é o único canal do jogo.
 
 ---
 
