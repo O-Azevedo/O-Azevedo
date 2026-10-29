@@ -36,8 +36,8 @@ e versão. Tudo o que está abaixo roda de verdade, com link para abrir agora.
 | Projeto | Versão | Lançada em | Commits (30 dias) | Site |
 |---|---|---|---|---|
 | **[HackQuiz](https://hackquiz-blackbox.vercel.app)** | v1.5.2 | 23/10/2026 | 124 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fhackquiz-blackbox.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://hackquiz-blackbox.vercel.app) |
-| **[RPG Espiritual](https://rpg-espiritual.vercel.app)** | v0.69.0 | 24/10/2026 | 139 | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
-| **[Sombraluz](https://sombraluz.vercel.app)** | v0.38.0 | 24/10/2026 | 122 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.vercel.app) |
+| **[RPG Espiritual](https://rpg-espiritual.vercel.app)** | v0.69.0 | (Beta) | 139 | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
+| **[Sombraluz](https://sombraluz.vercel.app)** | v0.38.0 | (Beta) | 122 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.vercel.app) |
 
 <!-- /auto:status -->
 <sub>Esta tabela e os números dos projetos se atualizam sozinhos todo dia, por um
