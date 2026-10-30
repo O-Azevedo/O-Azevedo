@@ -1,6 +1,7 @@
 name: Atualizar README
 
-# Todo dia (e quando rodado à mão) confere a versão, a data da última release,
+# De hora em hora, quando um projeto avisa que saiu release nova (repository_dispatch
+# "nova-release", mandado pelo release.yml do projeto) e quando rodado à mão, confere a versão, a data da última release,
 # os commits dos últimos 30 dias de cada projeto e os números do HackQuiz, e
 # reescreve só os trechos <!-- auto:... --> do README. Só faz commit se algo mudou.
 #
@@ -10,7 +11,9 @@ name: Atualizar README
 # versão que os sites publicam.
 on:
   schedule:
-    - cron: '0 9 * * *'   # 06:00 em Brasília
+    - cron: '17 * * * *'  # de hora em hora: pega a release nova mesmo sem o aviso
+  repository_dispatch:
+    types: [nova-release]
   workflow_dispatch:
 
 permissions:
