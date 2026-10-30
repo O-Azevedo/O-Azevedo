@@ -19,7 +19,7 @@
 
 <p align="center">
   <a href="#️-hackquiz">HackQuiz</a> ·
-  <a href="#-rpg-espiritual">RPG Espiritual</a> ·
+  <a href="#-ilumbá">Ilumbá</a> ·
   <a href="#️-sombraluz">Sombraluz</a> ·
   <a href="#-outros-projetos">Outros projetos</a> ·
   <a href="#-como-eu-trabalho-engenharia-assistida-por-ia">Como eu trabalho</a>
@@ -36,12 +36,12 @@ e versão. Tudo o que está abaixo roda de verdade, com link para abrir agora.
 | Projeto | Versão | Lançada em | Commits (30 dias) | Site |
 |---|---|---|---|---|
 | **[HackQuiz](https://hackquiz-blackbox.vercel.app)** | v1.5.3 | 23/10/2026 | 124 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fhackquiz-blackbox.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://hackquiz-blackbox.vercel.app) |
-| **[RPG Espiritual](https://rpg-espiritual.vercel.app)** | v0.69.0 | (Beta) | 139 | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
-| **[Sombraluz](https://sombraluz.vercel.app)** | v0.38.0 | (Beta) | 122 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.vercel.app) |
+| **[Ilumbá](https://rpg-espiritual.vercel.app)** | v0.71.0 | (Beta) | 139 | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
+| **[Sombraluz](https://sombraluz.vercel.app)** | v0.40.0 | (Beta) | 122 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.vercel.app) |
 
 <!-- /auto:status -->
 <sub>Esta tabela e os números dos projetos se atualizam sozinhos todo dia, por um
-GitHub Action deste repositório. Última mudança: <!-- auto:atualizado -->29/10/2026<!-- /auto:atualizado -->.</sub>
+GitHub Action deste repositório. Última mudança: <!-- auto:atualizado -->30/10/2026<!-- /auto:atualizado -->.</sub>
 
 > 🔒 Os repositórios são privados. Os projetos estão publicados nos links
 > acima, e o código pode ser mostrado sob solicitação, numa entrevista ou
@@ -91,33 +91,33 @@ que reprova a documentação quando ela diverge do código.
 
 ---
 
-## 🌀 RPG Espiritual
+## 🌀 Ilumbá
 
-**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · <!-- auto:rpg-versao -->v0.69.0<!-- /auto:rpg-versao --> · Godot 4 · GDScript · exportação web
+**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · <!-- auto:rpg-versao -->v0.71.0<!-- /auto:rpg-versao --> · Godot 4 · GDScript · exportação web
 
-RPG 2D em pixel art no estilo BitLife: você vive meio ano por vez, estuda,
+RPG 2D em pixel art no estilo BitLife (antes chamado RPG Espiritual): você vive meio ano por vez, estuda,
 trabalha, forma família e escolhe um caminho espiritual. Depois da morte, o jogo
 continua no plano espiritual, um lugar de trabalho e aprendizado, até reencarnar.
 
 - **Duas fases jogáveis:** a vida inteira e o pós-vida, com Abrigo, Umbral, Colônia e falanges.
 - **Conteúdo em dados:** eventos, empregos, falas, missões e ervas em JSON, separados do código.
-- **Testado sem abrir o jogo:** o CI simula 300 vidas a cada pull request e roda mais 11 suítes de regras, incluindo a compatibilidade com saves antigos.
+- **Testado sem abrir o jogo:** o CI simula 300 vidas a cada pull request e roda mais 13 suítes de regras, incluindo a compatibilidade com saves antigos.
 - **Cuidado com o jogador:** o pós-vida nunca é recompensa por morrer, e o contato do CVV (188) fica sempre no menu.
 - Exportado do Godot para a web: roda no navegador, sem instalar nada, com releases versionadas.
 
-<a href="https://rpg-espiritual.vercel.app"><img src="img/rpg-cidade.png" alt="RPG Espiritual: o personagem na cidade em pixel art, com a ficha de atributos, o diário de acontecimentos e as abas de ação" width="100%"></a>
+<a href="https://rpg-espiritual.vercel.app"><img src="img/rpg-cidade.png" alt="Ilumbá: o personagem na cidade em pixel art, com a ficha de atributos, o diário de acontecimentos e as abas de ação" width="100%"></a>
 
 <details>
 <summary><b>Ver o mapa da cidade</b></summary>
 <br>
-<a href="https://rpg-espiritual.vercel.app"><img src="img/rpg-mapa.png" alt="Mapa completo da cidade do RPG Espiritual, com casas, templos, cemitério, praça e praia" width="100%"></a>
+<a href="https://rpg-espiritual.vercel.app"><img src="img/rpg-mapa.png" alt="Mapa completo da cidade do Ilumbá, com casas, templos, cemitério, praça e praia" width="100%"></a>
 </details>
 
 ---
 
 ## ⚔️ Sombraluz
 
-**[▶ Jogar no navegador](https://sombraluz.vercel.app)** · <!-- auto:sombraluz-versao -->v0.38.0<!-- /auto:sombraluz-versao --> · HTML5 Canvas · JavaScript puro · Firebase · PWA
+**[▶ Jogar no navegador](https://sombraluz.vercel.app)** · <!-- auto:sombraluz-versao -->v0.40.0<!-- /auto:sombraluz-versao --> · HTML5 Canvas · JavaScript puro · Firebase · PWA
 
 Survivor-like para celular e navegador: você só move o personagem, as armas
 atiram sozinhas, e a cada nível escolhe uma carta. Entre as partidas há uma
