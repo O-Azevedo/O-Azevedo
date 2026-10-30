@@ -36,8 +36,8 @@ e versão. Tudo o que está abaixo roda de verdade, com link para abrir agora.
 | Projeto | Versão | Lançada em | Commits (30 dias) | Site |
 |---|---|---|---|---|
 | **[HackQuiz](https://hackquiz-blackbox.vercel.app)** | v1.5.3 | 23/10/2026 | 124 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fhackquiz-blackbox.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://hackquiz-blackbox.vercel.app) |
-| **[Ilumbá](https://rpg-espiritual.vercel.app)** | v0.71.0 | (Beta) | 139 | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
-| **[Sombraluz](https://sombraluz.vercel.app)** | v0.40.0 | (Beta) | 122 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.vercel.app) |
+| **[Ilumbá](https://rpg-espiritual.vercel.app)** | v0.73.1 | (Beta) | 139 | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
+| **[Sombraluz](https://sombraluz.vercel.app)** | v0.41.0 | (Beta) | 122 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.vercel.app) |
 
 <!-- /auto:status -->
 <sub>Esta tabela e os números dos projetos se atualizam sozinhos todo dia, por um
@@ -93,7 +93,7 @@ que reprova a documentação quando ela diverge do código.
 
 ## 🌀 Ilumbá
 
-**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · <!-- auto:rpg-versao -->v0.71.0<!-- /auto:rpg-versao --> · Godot 4 · GDScript · exportação web
+**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · <!-- auto:rpg-versao -->v0.73.1<!-- /auto:rpg-versao --> · Godot 4 · GDScript · exportação web
 
 RPG 2D em pixel art no estilo BitLife (antes chamado RPG Espiritual): você vive meio ano por vez, estuda,
 trabalha, forma família e escolhe um caminho espiritual. Depois da morte, o jogo
@@ -117,7 +117,7 @@ continua no plano espiritual, um lugar de trabalho e aprendizado, até reencarna
 
 ## ⚔️ Sombraluz
 
-**[▶ Jogar no navegador](https://sombraluz.vercel.app)** · <!-- auto:sombraluz-versao -->v0.40.0<!-- /auto:sombraluz-versao --> · HTML5 Canvas · JavaScript puro · Firebase · PWA
+**[▶ Jogar no navegador](https://sombraluz.vercel.app)** · <!-- auto:sombraluz-versao -->v0.41.0<!-- /auto:sombraluz-versao --> · HTML5 Canvas · JavaScript puro · Firebase · PWA
 
 Survivor-like para celular e navegador: você só move o personagem, as armas
 atiram sozinhas, e a cada nível escolhe uma carta. Entre as partidas há uma
