@@ -36,12 +36,12 @@ e versão. Tudo o que está abaixo roda de verdade, com link para abrir agora.
 | Projeto | Versão | Lançada em | Commits (30 dias) | Site |
 |---|---|---|---|---|
 | **[HackQuiz](https://hackquiz-blackbox.vercel.app)** | v1.5.3 | 23/10/2026 | 124 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fhackquiz-blackbox.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://hackquiz-blackbox.vercel.app) |
-| **[Ilumbá](https://rpg-espiritual.vercel.app)** | v0.73.1 | (Beta) | 139 | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
+| **[Ilumbá](https://rpg-espiritual.vercel.app)** | v0.75.0 | (Beta) | 139 | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
 | **[Sombraluz](https://sombraluz.vercel.app)** | v0.41.0 | (Beta) | 122 | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.vercel.app) |
 
 <!-- /auto:status -->
 <sub>Esta tabela e os números dos projetos se atualizam sozinhos todo dia, por um
-GitHub Action deste repositório. Última mudança: <!-- auto:atualizado -->30/10/2026<!-- /auto:atualizado -->.</sub>
+GitHub Action deste repositório. Última mudança: <!-- auto:atualizado -->31/10/2026<!-- /auto:atualizado -->.</sub>
 
 > 🔒 Os repositórios são privados. Os projetos estão publicados nos links
 > acima, e o código pode ser mostrado sob solicitação, numa entrevista ou
@@ -93,7 +93,7 @@ que reprova a documentação quando ela diverge do código.
 
 ## 🌀 Ilumbá
 
-**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · <!-- auto:rpg-versao -->v0.73.1<!-- /auto:rpg-versao --> · Godot 4 · GDScript · exportação web
+**[▶ Jogar no navegador](https://rpg-espiritual.vercel.app)** · <!-- auto:rpg-versao -->v0.75.0<!-- /auto:rpg-versao --> · Godot 4 · GDScript · exportação web
 
 RPG 2D em pixel art no estilo BitLife (antes chamado RPG Espiritual): você vive meio ano por vez, estuda,
 trabalha, forma família e escolhe um caminho espiritual. Depois da morte, o jogo
