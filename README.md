@@ -1,8 +1,8 @@
 <h1 align="center">Saudações, eu sou O Azevedo</h1>
 
 <p align="center">
-  <b>Cibersegurança e desenvolvimento web</b> · jogos · engenharia assistida por IA<br>
-  <sub>Security-minded web & game developer shipping tested, versioned projects with AI-assisted engineering.</sub>
+  <b>Pesquisador de cibersegurança</b> · testes de software · desenvolvimento web e jogos<br>
+  <sub>Security researcher & software tester · cybersecurity student · building tested, versioned projects with AI-assisted engineering.</sub>
 </p>
 
 <p align="center">
@@ -14,10 +14,17 @@
   <img alt="Unity" src="https://img.shields.io/badge/Unity_6-000?style=flat-square&logo=unity&logoColor=fff">
   <img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=fff">
   <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000?style=flat-square&logo=vercel&logoColor=fff">
+  <img alt="Luau" src="https://img.shields.io/badge/Luau_(Roblox)-00A2FF?style=flat-square&logo=roblox&logoColor=fff">
+  <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=fff">
+  <img alt="TryHackMe" src="https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=88CC14">
+  <img alt="CTF" src="https://img.shields.io/badge/CTF-player-C0392B?style=flat-square">
+  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=fff">
   <img alt="Claude Code" src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=anthropic&logoColor=fff">
 </p>
 
 <p align="center">
+  <a href="#-sobre-mim">Sobre mim</a> ·
   <a href="#️-hackquiz">HackQuiz</a> ·
   <a href="#-ilumbá">Ilumbá</a> ·
   <a href="#️-sombraluz">Sombraluz</a> ·
@@ -29,6 +36,21 @@
 
 Construo projetos **do começo ao fim**: código, testes, segurança, publicação
 e versão. Tudo o que está abaixo roda de verdade, com link para abrir agora.
+
+## 👤 Sobre mim
+
+- 🎓 **Curso cibersegurança na faculdade** e estudo segurança ofensiva e defensiva na prática.
+- 🔍 **Pesquisador de cibersegurança:** procuro falhas nos meus próprios projetos antes de publicar (XSS, injeção, regras de banco, cabeçalhos HTTP) e documento como corrigi.
+- 🚩 **CTFs e TryHackMe:** participo de competições CTF e treino nas salas do TryHackMe (exploração web, redes, Linux, escalação de privilégio e forense).
+- 🧪 **Testes de software:** testes unitários e de integração, testes de ataque a regras de segurança, simulações automatizadas, auditorias de acessibilidade e CI em todo pull request.
+- 🐞 **Próximo passo: bug bounty.** Ainda não tenho CVE registrada; estou me preparando para começar em programas de bug bounty em breve, sempre dentro do escopo e com divulgação responsável.
+
+| Área | O que já faço |
+|---|---|
+| **Segurança de aplicações web** | OWASP Top 10, XSS, injeção, CSP, HSTS, anti-clickjacking, revisão de cookies e cabeçalhos |
+| **Controle de acesso** | regras do Firestore testadas com ataques no emulador, validação no servidor, sessões e códigos de acesso únicos |
+| **Testes e QA** | suítes automatizadas, testes de regressão, simulação com bot, compatibilidade de saves, acessibilidade (WCAG AA) |
+| **Fundamentos** | redes, criptografia, Linux e Windows, forense, GRC e LGPD (conteúdo que eu mesmo escrevi e revisei no HackQuiz) |
 
 ## 📡 Em desenvolvimento agora
 <!-- auto:status -->
@@ -144,6 +166,8 @@ nível, missões e ranking online.
 | **[Runas & Hordas](https://runas-e-hordas.vercel.app)** | Survivor-like de fantasia medieval em pixel art, com 12 armas | HTML5 Canvas · JavaScript · Capacitor |
 | **Firewall FPS** *(em desenvolvimento)* | FPS cooperativo de sobrevivência contra hordas | Unity 6 · C# · FishNet (multiplayer) |
 | **APP Financeiro** *(em desenvolvimento)* | Plataforma de educação e organização financeira, em PT e EN | Next.js 16 · TypeScript · Prisma · PostgreSQL |
+| **Tharveth** *(em desenvolvimento, nome provisório)* | RPG de fantasia medieval sombria para Roblox, com testes de lógica e simulação de combate com latência | Luau · Rojo · Lune · Selene |
+| **Minha Retrospectiva 2026** | Quiz pessoal de 20 perguntas com leitura individual feita por regras (sem IA). Acesso por código único ligado ao e-mail, limite de respostas garantido no servidor e sem sessões simultâneas | Cloudflare Pages · Functions · D1 · JavaScript |
 
 ## 🤖 Como eu trabalho: engenharia assistida por IA
 
@@ -158,5 +182,6 @@ isso funcionar é a parte que continua sendo minha: decidir, verificar e manter.
 
 ## 📫 Contato
 
-Quer ver o código de algum projeto ou conversar sobre uma vaga?
+Quer ver o código de algum projeto, conversar sobre uma vaga em segurança ou
+QA, ou trocar ideia sobre bug bounty?
 [Abra uma issue neste repositório](https://github.com/O-Azevedo/O-Azevedo/issues/new) que eu respondo.
