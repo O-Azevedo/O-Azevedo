@@ -41,7 +41,7 @@ e versão. Tudo o que está abaixo roda de verdade, com link para abrir agora.
 
 - 🎓 **Curso cibersegurança na faculdade** e estudo segurança ofensiva e defensiva na prática.
 - 🔍 **Pesquisador de cibersegurança:** procuro falhas nos meus próprios projetos antes de publicar (XSS, injeção, regras de banco, cabeçalhos HTTP) e documento como corrigi.
-- 🚩 **CTFs e TryHackMe:** participo de competições CTF e treino nas salas do TryHackMe (exploração web, redes, Linux, escalação de privilégio e forense).
+- 🚩 **CTFs e TryHackMe:** participo de competições CTF e treino no TryHackMe.
 - 🧪 **Testes de software:** testes unitários e de integração, testes de ataque a regras de segurança, simulações automatizadas, auditorias de acessibilidade e CI em todo pull request.
 - 🐞 **Próximo passo: bug bounty.** Ainda não tenho CVE registrada; estou me preparando para começar em programas de bug bounty em breve, sempre dentro do escopo e com divulgação responsável.
 
@@ -50,7 +50,7 @@ e versão. Tudo o que está abaixo roda de verdade, com link para abrir agora.
 | **Segurança de aplicações web** | OWASP Top 10, XSS, injeção, CSP, HSTS, anti-clickjacking, revisão de cookies e cabeçalhos |
 | **Controle de acesso** | regras do Firestore testadas com ataques no emulador, validação no servidor, sessões e códigos de acesso únicos |
 | **Testes e QA** | suítes automatizadas, testes de regressão, simulação com bot, compatibilidade de saves, acessibilidade (WCAG AA) |
-| **Fundamentos** | redes, criptografia, Linux e Windows, forense, GRC e LGPD (conteúdo que eu mesmo escrevi e revisei no HackQuiz) |
+| **Fundamentos** | redes, criptografia, Linux e Windows, forense, GRC e LGPD (conteúdo que curei para o HackQuiz) |
 
 ## 📡 Em desenvolvimento agora
 <!-- auto:status -->
@@ -167,7 +167,7 @@ nível, missões e ranking online.
 | **Firewall FPS** *(em desenvolvimento)* | FPS cooperativo de sobrevivência contra hordas | Unity 6 · C# · FishNet (multiplayer) |
 | **APP Financeiro** *(em desenvolvimento)* | Plataforma de educação e organização financeira, em PT e EN | Next.js 16 · TypeScript · Prisma · PostgreSQL |
 | **Tharveth** *(em desenvolvimento, nome provisório)* | RPG de fantasia medieval sombria para Roblox, com testes de lógica e simulação de combate com latência | Luau · Rojo · Lune · Selene |
-| **Minha Retrospectiva 2026** | Quiz pessoal de 20 perguntas com leitura individual feita por regras (sem IA). Acesso por código único ligado ao e-mail, limite de respostas garantido no servidor e sem sessões simultâneas | Cloudflare Pages · Functions · D1 · JavaScript |
+| **Minha Retrospectiva 2026** | Quiz pessoal de 20 perguntas com leitura individual feita por regras (sem IA). Acesso por código único ligado ao e-mail e validado no servidor, sem sessões simultâneas | Cloudflare Pages · Functions · D1 · JavaScript |
 
 ## 🤖 Como eu trabalho: engenharia assistida por IA
 
