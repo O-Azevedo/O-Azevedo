@@ -16,6 +16,10 @@
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000">
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=fff">
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=fff">
+  <img alt="APIs" src="https://img.shields.io/badge/API_Integration-2563EB?style=flat-square&logo=fastapi&logoColor=fff">
+  <img alt="Mercado Livre" src="https://img.shields.io/badge/Mercado_Livre-FFE600?style=flat-square&logo=mercadolibre&logoColor=000">
+  <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=fff">
+  <img alt="Neon" src="https://img.shields.io/badge/Neon-00E599?style=flat-square&logo= neon&logoColor=000">
   <img alt="Firebase" src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=fff">
   <img alt="Godot" src="https://img.shields.io/badge/Godot_4-478CBF?style=flat-square&logo=godotengine&logoColor=fff">
   <img alt="Unity" src="https://img.shields.io/badge/Unity_6-000?style=flat-square&logo=unity&logoColor=fff">
@@ -30,9 +34,9 @@
 
 ## Perfil
 
-Sou estudante de **cibersegurança**, desenvolvedor e entusiasta de qualidade de software. Gosto de trabalhar na interseção entre **segurança, engenharia e experiência de uso**: entender o problema, construir a solução, testar os casos esperados e os inesperados e preparar o projeto para ser publicado e mantido.
+Sou estudante de **cibersegurança**, desenvolvedor e entusiasta de qualidade de software. Gosto de trabalhar na interseção entre **segurança, engenharia e experiência de uso**: entender o problema, construir a solução, integrar serviços, testar os casos esperados e os inesperados e preparar o projeto para ser publicado e mantido.
 
-Tenho experiência prática em projetos próprios que vão de aplicações web e ferramentas educacionais a jogos para navegador. Também estudo segurança ofensiva e defensiva, participo de CTFs e treino no TryHackMe. Em segurança, pratico em sistemas próprios ou ambientes autorizados, com escopo definido e divulgação responsável.
+Tenho experiência prática em projetos próprios que vão de aplicações web e ferramentas educacionais a jogos para navegador. Também trabalho com **integração de APIs e serviços externos**, incluindo integrações com o **Mercado Livre**, além de tecnologias de infraestrutura e dados como **Cloudflare** e **Neon**. Estudo segurança ofensiva e defensiva, participo de CTFs e treino no TryHackMe. Em segurança, pratico em sistemas próprios ou ambientes autorizados, com escopo definido e divulgação responsável.
 
 ## Competências
 
@@ -42,9 +46,11 @@ Tenho experiência prática em projetos próprios que vão de aplicações web e
 | **Testes e QA** | Testes unitários e de integração, regressão, testes de regras de segurança, testes de compatibilidade de saves, simulação automatizada, validação de conteúdo e CI |
 | **Acessibilidade** | Verificação de contraste WCAG AA, navegação por teclado e atenção a padrões de acessibilidade |
 | **Desenvolvimento web** | JavaScript, TypeScript, HTML/CSS, Next.js, aplicações responsivas, Firebase, PWA e experiências para navegador |
+| **Integração de APIs** | Integração de aplicações com APIs e serviços externos, incluindo Mercado Livre; comunicação entre sistemas e tratamento de dados integrados |
 | **Desenvolvimento de jogos** | Godot 4/GDScript, Unity/C#, HTML5 Canvas e JavaScript, Luau/Roblox; sistemas de combate, progressão, conteúdo e simulação |
-| **Dados e backend** | Firebase/Firestore, Prisma e PostgreSQL em projetos; regras de acesso e validação no servidor |
-| **Entrega e automação** | Git, GitHub Actions, CI, versionamento semântico, releases e deploy web com Vercel |
+| **Dados e backend** | Firebase/Firestore, Prisma, PostgreSQL e Neon; regras de acesso e validação no servidor |
+| **Cloud e infraestrutura** | Cloudflare, Vercel, configuração de serviços web e publicação de aplicações |
+| **Entrega e automação** | Git, GitHub Actions, CI, versionamento semântico, releases e deploy web |
 | **Fundamentos de segurança** | Redes, criptografia, Linux, Windows, forense, GRC, LGPD, CTFs e prática em laboratório |
 
 ## Projetos em destaque
@@ -89,7 +95,9 @@ Um RPG de simulação de vida em que escolhas sobre estudo, trabalho, família e
 ## Tecnologias
 
 **Linguagens:** JavaScript, TypeScript, C#, GDScript, Luau, HTML e CSS  
-**Web e dados:** Next.js, Firebase/Firestore, Prisma, PostgreSQL, Vercel  
+**Web e integrações:** Next.js, APIs, Mercado Livre, Firebase/Firestore, Vercel  
+**Dados:** Neon, PostgreSQL, Prisma  
+**Cloud e infraestrutura:** Cloudflare  
 **Jogos:** HTML5 Canvas, Godot 4, Unity 6, Roblox Studio e Capacitor  
 **Segurança e qualidade:** OWASP, testes automatizados, acessibilidade WCAG, Linux, CTFs e TryHackMe  
 **Entrega:** Git, GitHub Actions, CI, versionamento e releases
@@ -98,14 +106,15 @@ Um RPG de simulação de vida em que escolhas sobre estudo, trabalho, família e
 
 - **Engenharia com critério:** decisões técnicas documentadas para que mudanças futuras respeitem o contexto do projeto.
 - **Qualidade verificável:** testes, simulações e CI para detectar regressões e validar regras, não apenas a execução feliz.
+- **Integrações confiáveis:** conecto aplicações a APIs e serviços externos considerando validação, tratamento de respostas e consistência dos dados.
 - **Segurança desde o desenvolvimento:** considero abuso, autorização e validação como parte do desenho da funcionalidade.
 - **Aprendizado contínuo:** estudo, prática em ambientes autorizados e revisão das fontes usadas em conteúdos técnicos.
 - **IA como ferramenta:** uso assistência de IA para acelerar tarefas, mantendo comigo as decisões, a revisão e a responsabilidade pelo resultado.
 
 ## Contato
 
-Estou aberto a conversar sobre **segurança de aplicações, QA, desenvolvimento web e jogos**, além de oportunidades e projetos técnicos.
+Estou aberto a conversar sobre **segurança de aplicações, QA, integração de APIs, desenvolvimento web e jogos**, além de oportunidades e projetos técnicos.
 
 [Entre em contato abrindo uma issue neste repositório](https://github.com/O-Azevedo/O-Azevedo/issues/new).
 
-<p align="center"><sub>Construir com intenção. Testar com rigor. Publicar com responsabilidade.</sub></p>
+<p align="center"><sub>Construir com intenção. Testar com rigor. Integrar com cuidado. Publicar com responsabilidade.</sub></p>
