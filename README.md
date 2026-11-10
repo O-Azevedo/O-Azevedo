@@ -1,8 +1,15 @@
-<h1 align="center">Olá, eu sou O Azevedo</h1>
+<h1 align="center">O Azevedo</h1>
 
 <p align="center">
-  <b>Cybersecurity researcher · software tester · web developer · game designer</b><br>
-  <sub>Construo projetos que combinam segurança, qualidade e experiência real de uso.</sub>
+  <strong>Segurança de aplicações · Qualidade de software · Desenvolvimento web e jogos</strong><br>
+  <sub>Da ideia à publicação: projetos funcionais, testados, documentados e construídos com atenção à segurança.</sub>
+</p>
+
+<p align="center">
+  <a href="https://hackquiz-blackbox.vercel.app">HackQuiz</a> ·
+  <a href="https://rpg-espiritual.vercel.app">Ilumbá</a> ·
+  <a href="https://runas-e-hordas.vercel.app">Runas &amp; Hordas</a> ·
+  <a href="https://github.com/O-Azevedo/O-Azevedo/issues/new">Contato</a>
 </p>
 
 <p align="center">
@@ -10,148 +17,95 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=fff">
   <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=fff">
   <img alt="Firebase" src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=fff">
-  <img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=fff">
   <img alt="Godot" src="https://img.shields.io/badge/Godot_4-478CBF?style=flat-square&logo=godotengine&logoColor=fff">
   <img alt="Unity" src="https://img.shields.io/badge/Unity_6-000?style=flat-square&logo=unity&logoColor=fff">
+  <img alt="C%23" src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=fff">
   <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=fff">
-  <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=fff">
   <img alt="TryHackMe" src="https://img.shields.io/badge/TryHackMe-212C42?style=flat-square&logo=tryhackme&logoColor=88CC14">
   <img alt="CTF" src="https://img.shields.io/badge/CTF-player-C0392B?style=flat-square">
 </p>
 
-<p align="center">
-  <a href="#-sobre-mim">Sobre mim</a> ·
-  <a href="#-projetos-em-destaque">Projetos</a> ·
-  <a href="#-stack-e-interesses">Stack</a> ·
-  <a href="#-como-eu-trabalho">Como trabalho</a> ·
-  <a href="#-contato">Contato</a>
-</p>
-
 ---
 
-## 👤 Sobre mim
+## Perfil
 
-Sou um desenvolvedor e pesquisador de cibersegurança com foco em criar projetos reais, testados e pensados para uso prático. Meu interesse está em unir:
+Sou estudante de **cibersegurança**, desenvolvedor e entusiasta de qualidade de software. Gosto de trabalhar na interseção entre **segurança, engenharia e experiência de uso**: entender o problema, construir a solução, testar os casos esperados e os inesperados e preparar o projeto para ser publicado e mantido.
 
-- segurança de aplicações,
-- testes de software e QA,
-- desenvolvimento web e de jogos,
-- e engenharia de produto com responsabilidade técnica.
+Tenho experiência prática em projetos próprios que vão de aplicações web e ferramentas educacionais a jogos para navegador. Também estudo segurança ofensiva e defensiva, participo de CTFs e treino no TryHackMe. Em segurança, pratico em sistemas próprios ou ambientes autorizados, com escopo definido e divulgação responsável.
 
-Eu costumo construir desde o conceito até a publicação: protótipo, regras de negócio, segurança, automação, validação, testes e release. Quando uma funcionalidade é escrita, eu procuro provar que ela funciona, que resiste a falhas e que continua segura no longo prazo.
+## Competências
 
-### O que me move
-
-- 🎓 Estudo cibersegurança na faculdade e sigo áreas como segurança ofensiva, defensiva e revisão de aplicações.
-- 🔍 Procuro falhas em meus próprios projetos antes de publicar: XSS, injeção, regras de banco, cabeçalhos HTTP, validação de acesso e mais.
-- 🧪 Trabalho com testes automatizados, regressão, validação de regras e auditoria de acessibilidade.
-- 🚩 Participo de CTFs e treino em plataformas como TryHackMe para reforçar a prática.
-- 🛠️ Estou me preparando para começar em bug bounty com escopo bem definido, sempre com responsabilidade e divulgação adequada.
-
-| Área | O que já faço |
+| Área | Competências e prática |
 |---|---|
-| Segurança de aplicações web | OWASP Top 10, XSS, injeção, CSP, HSTS, anti-clickjacking, revisão de cookies e cabeçalhos |
-| Controle de acesso | regras em banco e backend, validação no servidor, sessões, códigos únicos e simulação de ataques |
-| Testes e QA | testes unitários, integração, regressão, acessibilidade (WCAG AA), simulação com bots e CI |
-| Fundamentos | redes, criptografia, Linux, Windows, forense, GRC e LGPD |
+| **Segurança de aplicações** | OWASP Top 10, análise de XSS e injeção, validação de entrada, controle de acesso, regras do Firestore, CSP, HSTS, proteção contra clickjacking e revisão de cookies e cabeçalhos HTTP |
+| **Testes e QA** | Testes unitários e de integração, regressão, testes de regras de segurança, testes de compatibilidade de saves, simulação automatizada, validação de conteúdo e CI |
+| **Acessibilidade** | Verificação de contraste WCAG AA, navegação por teclado e atenção a padrões de acessibilidade |
+| **Desenvolvimento web** | JavaScript, TypeScript, HTML/CSS, Next.js, aplicações responsivas, Firebase, PWA e experiências para navegador |
+| **Desenvolvimento de jogos** | Godot 4/GDScript, Unity/C#, HTML5 Canvas e JavaScript, Luau/Roblox; sistemas de combate, progressão, conteúdo e simulação |
+| **Dados e backend** | Firebase/Firestore, Prisma e PostgreSQL em projetos; regras de acesso e validação no servidor |
+| **Entrega e automação** | Git, GitHub Actions, CI, versionamento semântico, releases e deploy web com Vercel |
+| **Fundamentos de segurança** | Redes, criptografia, Linux, Windows, forense, GRC, LGPD, CTFs e prática em laboratório |
 
----
+## Projetos em destaque
 
-## 🚀 Projetos em destaque
+### [HackQuiz](https://hackquiz-blackbox.vercel.app) — aprendizagem em cibersegurança
 
-### [HackQuiz](https://hackquiz-blackbox.vercel.app)
+Plataforma em português para estudar segurança da informação por competências, com explicações referenciadas, exercícios práticos e repetição espaçada.
 
-Plataforma de estudo de segurança da informação em português, com exercícios práticos, explicações baseadas em fontes e reforço por repetição espaçada.
+- Conteúdo de Red Team e Blue Team, redes, criptografia, Linux e Windows, forense, GRC e Direito Digital.
+- Exercícios baseados em artefatos e cenários práticos, não apenas memorização.
+- Regras do Firestore exercitadas em testes no emulador; testes cobrem tanto acessos legítimos quanto tentativas não autorizadas.
+- Já identifiquei e corrigi problemas como XSS armazenado e injeção de código causada pelo tratamento de caracteres Unicode.
+- CSP sem `unsafe-inline`, cabeçalhos de segurança, testes automatizados, auditoria de acessibilidade e CI.
 
-- Mais de 170 perguntas em 9 áreas de estudo
-- Exercícios práticos com análise real de artefatos e logs
-- Foco em segurança aplicada, redes, criptografia, Linux, GRC e Direito Digital
-- Segurança reforçada com testes de ataque em regras do app
-- CI em todo pull request e auditoria de consistência de conteúdo
+### [Runas & Hordas](https://runas-e-hordas.vercel.app) — jogo de ação para navegador
 
-### [Ilumbá](https://rpg-espiritual.vercel.app)
+Survivor-like de fantasia medieval em pixel art, com hordas de inimigos e um arsenal de 12 armas.
 
-RPG 2D em pixel art com sistema de vida, trabalho, família, cultura, espiritualidade e consequências ao longo de uma existência.
+- Construído com HTML5 Canvas e JavaScript.
+- Gameplay de ação com foco em combate, progressão e leitura clara da tela.
+- Preparado também para distribuição móvel com Capacitor.
 
-- Fases de vida e pós-vida com progressão e narrativa aberta
-- Conteúdo em dados, separado da lógica do jogo
-- Simulação de centenas de vidas em CI para validar regras e compatibilidade de saves
-- Exportação para web com acesso direto no navegador
+### [Ilumbá](https://rpg-espiritual.vercel.app) — RPG 2D em pixel art
 
-### [Runas & Hordas](https://runas-e-hordas.vercel.app)
+Um RPG de simulação de vida em que escolhas sobre estudo, trabalho, família e espiritualidade moldam a jornada do personagem.
 
-Survivor-like de fantasia medieval em pixel art, com combate contra hordas e um arsenal de 12 armas.
-
-- Feito com HTML5 Canvas e JavaScript
-- Pode ser levado para dispositivos móveis com Capacitor
-- Projeto focado em gameplay direto, progressão e combate em ondas
+- Ciclo de vida e pós-vida com progressão narrativa própria.
+- Eventos, empregos, diálogos, missões e outros conteúdos estruturados em JSON, separados da lógica do jogo.
+- Testes automatizados de regras e compatibilidade com saves antigos; simulações de vidas executadas em CI.
+- Feito em Godot 4 com GDScript e exportado para jogar no navegador.
 
 ### Outros projetos
 
-| Projeto | O que é | Stack |
+| Projeto | Descrição | Tecnologias |
 |---|---|---|
-| Sombraluz | Survivor-like com progressão, equipamentos e ranking online | HTML5 Canvas · JavaScript · Firebase · PWA |
-| Firewall FPS | FPS cooperativo de sobrevivência contra hordas | Unity 6 · C# · FishNet |
-| APP Financeiro | Educação financeira e organização pessoal em PT/EN | Next.js 16 · TypeScript · Prisma · PostgreSQL |
-| Tharveth | RPG de fantasia sombria para Roblox | Luau · Rojo · Lune · Roblox Studio |
-| Minha Retrospectiva 2026 | Quiz de autorreflexão com validação por regras | JavaScript · Firebase |
+| [Sombraluz](https://sombraluz.vercel.app) | Survivor-like com progressão, equipamentos, missões e ranking online | HTML5 Canvas · JavaScript · Firebase · PWA |
+| Firewall FPS *(em desenvolvimento)* | FPS cooperativo de sobrevivência contra hordas | Unity 6 · C# · FishNet |
+| APP Financeiro *(em desenvolvimento)* | Educação financeira e organização pessoal em português e inglês | Next.js · TypeScript · Prisma · PostgreSQL |
+| Tharveth *(em desenvolvimento)* | RPG de fantasia sombria para Roblox, com testes de lógica e simulações de combate | Luau · Rojo · Lune · Roblox Studio |
+| Minha Retrospectiva 2026 | Quiz pessoal com leitura baseada em regras e acesso por código validado no servidor | JavaScript · Firebase |
 
----
+## Tecnologias
 
-## 🧩 Stack e interesses
+**Linguagens:** JavaScript, TypeScript, C#, GDScript, Luau, HTML e CSS  
+**Web e dados:** Next.js, Firebase/Firestore, Prisma, PostgreSQL, Vercel  
+**Jogos:** HTML5 Canvas, Godot 4, Unity 6, Roblox Studio e Capacitor  
+**Segurança e qualidade:** OWASP, testes automatizados, acessibilidade WCAG, Linux, CTFs e TryHackMe  
+**Entrega:** Git, GitHub Actions, CI, versionamento e releases
 
-<p align="center">
-  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=000">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=fff">
-  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=nextdotjs&logoColor=fff">
-  <img alt="Firebase" src="https://img.shields.io/badge/Firebase-DD2C00?style=for-the-badge&logo=firebase&logoColor=fff">
-  <img alt="Godot" src="https://img.shields.io/badge/Godot_4-478CBF?style=for-the-badge&logo=godotengine&logoColor=fff">
-  <img alt="Unity" src="https://img.shields.io/badge/Unity_6-000?style=for-the-badge&logo=unity&logoColor=fff">
-  <img alt="C#" src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=fff">
-  <img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=000">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=fff">
-  <img alt="Cloudflare" src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=fff">
-</p>
+## Como trabalho
 
-Eu aproveito uma stack bastante variada, mas me concentro em áreas que exigem disciplina técnica:
+- **Engenharia com critério:** decisões técnicas documentadas para que mudanças futuras respeitem o contexto do projeto.
+- **Qualidade verificável:** testes, simulações e CI para detectar regressões e validar regras, não apenas a execução feliz.
+- **Segurança desde o desenvolvimento:** considero abuso, autorização e validação como parte do desenho da funcionalidade.
+- **Aprendizado contínuo:** estudo, prática em ambientes autorizados e revisão das fontes usadas em conteúdos técnicos.
+- **IA como ferramenta:** uso assistência de IA para acelerar tarefas, mantendo comigo as decisões, a revisão e a responsabilidade pelo resultado.
 
-- Desenvolvimento web com foco em performance e qualidade de experiência
-- Segurança em front-end e back-end, validação e testes de abuso
-- Game dev e sistemas de regras, progresso e conteúdo
-- Automação de processos, CI/CD e releases versionadas
-- IA como auxiliar de desenvolvimento, mas com responsabilidade humana no controle e revisão
+## Contato
 
----
+Estou aberto a conversar sobre **segurança de aplicações, QA, desenvolvimento web e jogos**, além de oportunidades e projetos técnicos.
 
-## 🤖 Como eu trabalho
+[Entre em contato abrindo uma issue neste repositório](https://github.com/O-Azevedo/O-Azevedo/issues/new).
 
-Uso IA como parte do processo, não como atalho. A parte que faz a diferença continua sendo minha: decidir, verificar e manter a qualidade.
-
-- **Cada projeto tem um guia de decisões** para manter trilhas consistentes ao longo do tempo
-- **Nada entra sem verificação**: testes automatizados, auditoria de acessibilidade, simulação de ataques e CI em todo pull request
-- **Separação clara de papéis** em projetos maiores, com revisão independente e validação de fontes
-- **Fluxo de produção disciplinado**: branch, pull request, CI verde, versionamento e release documentada
-- **Automação onde faz sentido**: uso de CI e scripts para validar projetos e reduzir trabalho manual
-
----
-
-## 📫 Contato
-
-Se você quiser conversar sobre:
-
-- segurança e QA,
-- desenvolvimento web,
-- projetos de jogos,
-- bug bounty,
-- ou oportunidades técnicas,
-
-me chame por uma issue neste repositório.
-
-[Abra uma issue aqui](https://github.com/O-Azevedo/O-Azevedo/issues/new)
-
----
-
-<p align="center">
-  <sub>Projetos, código, testes e segurança — tudo em movimento, com foco em qualidade real.</sub>
-</p>
+<p align="center"><sub>Construir com intenção. Testar com rigor. Publicar com responsabilidade.</sub></p>
