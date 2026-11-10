@@ -79,20 +79,19 @@ RPG 2D em pixel art com sistema de vida, trabalho, família, cultura, espiritual
 - Simulação de centenas de vidas em CI para validar regras e compatibilidade de saves
 - Exportação para web com acesso direto no navegador
 
-### [Sombraluz](https://sombraluz.vercel.app)
+### [Runas & Hordas](https://runas-e-hordas.vercel.app)
 
-Survivor-like com foco em decisões rápidas, progressão, equipamentos e combate em tela.
+Survivor-like de fantasia medieval em pixel art, com combate contra hordas e um arsenal de 12 armas.
 
-- Gameplay em HTML5 Canvas com desempenho leve
-- Sistema de cartas, upgrades e balanceamento por simulação
-- Ranking online com regras de escrita controladas e validation server-side
-- PWA com installável e execução em navegador
+- Feito com HTML5 Canvas e JavaScript
+- Pode ser levado para dispositivos móveis com Capacitor
+- Projeto focado em gameplay direto, progressão e combate em ondas
 
 ### Outros projetos
 
 | Projeto | O que é | Stack |
 |---|---|---|
-| [Runas & Hordas](https://runas-e-hordas.vercel.app) | Survivor-like de fantasia medieval em pixel art | HTML5 Canvas · JavaScript · Capacitor |
+| Sombraluz | Survivor-like com progressão, equipamentos e ranking online | HTML5 Canvas · JavaScript · Firebase · PWA |
 | Firewall FPS | FPS cooperativo de sobrevivência contra hordas | Unity 6 · C# · FishNet |
 | APP Financeiro | Educação financeira e organização pessoal em PT/EN | Next.js 16 · TypeScript · Prisma · PostgreSQL |
 | Tharveth | RPG de fantasia sombria para Roblox | Luau · Rojo · Lune · Roblox Studio |
@@ -133,7 +132,7 @@ Uso IA como parte do processo, não como atalho. A parte que faz a diferença co
 - **Nada entra sem verificação**: testes automatizados, auditoria de acessibilidade, simulação de ataques e CI em todo pull request
 - **Separação clara de papéis** em projetos maiores, com revisão independente e validação de fontes
 - **Fluxo de produção disciplinado**: branch, pull request, CI verde, versionamento e release documentada
-- **O perfil também é automatizado**: sempre que os projetos evoluem, os dados e métricas são atualizados sem depender de manutenção manual
+- **Automação onde faz sentido**: uso de CI e scripts para validar projetos e reduzir trabalho manual
 
 ---
 
