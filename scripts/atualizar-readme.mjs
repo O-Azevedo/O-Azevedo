@@ -30,8 +30,8 @@ const PROJETOS = [
     versaoPublica: async () => JSON.parse(await texto('https://rpg-espiritual.vercel.app/version.json')).version,
   },
   {
-    id: 'sombraluz', nome: 'Sombraluz', repo: 'sombraluz', site: 'https://sombraluz.vercel.app',
-    versaoPublica: async () => JSON.parse(await texto('https://sombraluz.vercel.app/version.json')).version,
+    id: 'sombraluz', nome: 'Sombraluz', repo: 'sombraluz', site: 'https://sombraluz.pages.dev',
+    versaoPublica: async () => JSON.parse(await texto('https://sombraluz.pages.dev/version.json')).version,
   },
   {
     id: 'runas', nome: 'Runas & Hordas', repo: 'runas-e-hordas', site: 'https://runas-e-hordas.pages.dev',

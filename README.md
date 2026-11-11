@@ -87,7 +87,7 @@ Simulação de vida em pixel art em que escolhas sobre estudo, trabalho, famíli
 
 | Projeto | Descrição | Tecnologias |
 |---|---|---|
-| [Sombraluz](https://sombraluz.vercel.app) | Survivor-like com progressão, equipamentos, missões e ranking online | HTML5 Canvas · JavaScript · Firebase · PWA |
+| [Sombraluz](https://sombraluz.pages.dev) | Survivor-like com progressão, equipamentos, missões e ranking online | HTML5 Canvas · JavaScript · Firebase · PWA |
 | Caminhos Abertos 2027 | Página de vendas com formulário obrigatório, Pix e cartão pelo Checkout Transparente do Mercado Pago; o pedido só é pago depois que o servidor confere o pagamento na API | Next.js 16 · TypeScript · Cloudflare Workers · Neon · Drizzle · Zod |
 | Minha Retrospectiva 2026 | Quiz pessoal de 20 perguntas com leitura feita por regras (sem IA); acesso por código individual ligado ao e-mail e validado no servidor, sem sessões simultâneas | Cloudflare Pages · Functions · D1 · JavaScript |
 | Tharveth *(em desenvolvimento)* | RPG de fantasia sombria para Roblox, com testes de lógica e simulação de combate com latência | Luau · Rojo · Lune · Roblox Studio |
@@ -102,7 +102,7 @@ Simulação de vida em pixel art em que escolhas sobre estudo, trabalho, famíli
 |---|---|---|---|---|
 | **[HackQuiz](https://hackquiz-blackbox.vercel.app)** | v1.5.3 | 29/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fhackquiz-blackbox.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://hackquiz-blackbox.vercel.app) |
 | **[Ilumbá](https://rpg-espiritual.vercel.app)** | v0.87.0 | 06/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
-| **[Sombraluz](https://sombraluz.vercel.app)** | v0.41.0 | 31/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.vercel.app) |
+| **[Sombraluz](https://sombraluz.pages.dev)** | v0.45.0 | 31/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.pages.dev) |
 | **[Runas & Hordas](https://runas-e-hordas.pages.dev)** | v0.21.0 | 07/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Frunas-e-hordas.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://runas-e-hordas.pages.dev) |
 
 <!-- /auto:status -->
