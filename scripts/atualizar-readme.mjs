@@ -33,6 +33,10 @@ const PROJETOS = [
     id: 'sombraluz', nome: 'Sombraluz', repo: 'sombraluz', site: 'https://sombraluz.vercel.app',
     versaoPublica: async () => JSON.parse(await texto('https://sombraluz.vercel.app/version.json')).version,
   },
+  {
+    id: 'runas', nome: 'Runas & Hordas', repo: 'runas-e-hordas', site: 'https://runas-e-hordas.pages.dev',
+    versaoPublica: async () => JSON.parse(await texto('https://runas-e-hordas.pages.dev/version.json')).version,
+  },
 ];
 
 async function texto(url, headers = {}) {
