@@ -37,6 +37,9 @@ const PROJETOS = [
     id: 'runas', nome: 'Runas & Hordas', repo: 'runas-e-hordas', site: 'https://runas-e-hordas.pages.dev',
     versaoPublica: async () => JSON.parse(await texto('https://runas-e-hordas.pages.dev/version.json')).version,
   },
+  // Os dois serviços não publicam a versão no site: só o token (releases) atualiza.
+  { id: 'caminhos', nome: 'Caminhos Abertos 2027', repo: 'caminhos-abertos-2027', site: 'https://caminhos.abertos2027.workers.dev' },
+  { id: 'retrospectiva', nome: 'Minha Retrospectiva 2026', repo: 'minha-retrospectiva-2026', site: 'https://minha-retrospectiva-2026.pages.dev' },
 ];
 
 async function texto(url, headers = {}) {
@@ -114,7 +117,7 @@ async function main() {
       if (rel) { versao = rel.tag_name.replace(/^v/, ''); data = dataBR(rel.published_at); }
       commits = await tentar(`${p.repo}: commits`, () => commitsDesde(p.repo, desde));
     }
-    versao ??= await tentar(`${p.id}: versão no site`, p.versaoPublica);
+    if (p.versaoPublica) versao ??= await tentar(`${p.id}: versão no site`, p.versaoPublica);
 
     md = trocarTrecho(md, `${p.id}-versao`, versao && `v${versao}`);
     // O que não foi descoberto agora mantém o valor anterior da tabela.

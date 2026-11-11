@@ -7,6 +7,7 @@
 
 <p align="center">
   <a href="#perfil">Perfil</a> ·
+  <a href="#serviços-no-ar">Serviços</a> ·
   <a href="#projetos-em-destaque">Projetos</a> ·
   <a href="#situação-dos-projetos">Situação</a> ·
   <a href="#competências">Competências</a> ·
@@ -40,9 +41,38 @@
 
 Sou estudante de **cibersegurança**, desenvolvedor e entusiasta de qualidade de software. Trabalho na interseção entre **segurança, engenharia e experiência de uso**: entender o problema, construir a solução, integrar serviços, testar os casos esperados e os inesperados e deixar o projeto pronto para ser publicado e mantido.
 
-Meus projetos vão de aplicações web, páginas de venda com pagamento e ferramentas educacionais a jogos para navegador. Integro aplicações com **APIs e serviços externos** (Mercado Livre e Mercado Pago, com confirmação de pagamento validada no servidor) e uso **Cloudflare**, **Vercel** e **Neon (PostgreSQL)** para publicar e guardar dados.
+Tenho **serviços em produção** (venda com pagamento, entrega e acesso controlado), além de ferramentas educacionais e jogos para navegador. Integro aplicações com **APIs e serviços externos** (Mercado Livre e Mercado Pago, com confirmação de pagamento validada no servidor) e uso **Cloudflare**, **Vercel** e **Neon (PostgreSQL)** para publicar e guardar dados.
 
 Estudo segurança ofensiva e defensiva, participo de CTFs e treino no TryHackMe. Pratico apenas em sistemas próprios ou ambientes autorizados, com escopo definido e divulgação responsável.
+
+## Serviços no ar
+
+Produtos publicados e em operação, com pagamento, controle de acesso e dados pessoais tratados no servidor.
+
+### 🔮 [Caminhos Abertos 2027](https://caminhos.abertos2027.workers.dev) — loja de análise personalizada
+
+<sub><!-- auto:caminhos-versao -->v0.7.0<!-- /auto:caminhos-versao --> · Next.js 16 · TypeScript · Cloudflare Workers · Neon (PostgreSQL) · Mercado Pago</sub>
+
+Página de vendas de uma análise personalizada para 2027 (numerologia, Baralho Cigano e Tarot), entregue em áudios e PDF. O fluxo vai da venda à entrega sem planilha nem conferência manual de comprovante.
+
+- **Formulário de personalização obrigatório** antes do pagamento, validado com Zod no navegador e de novo no servidor.
+- **Pix e cartão dentro do site** pelo Checkout Transparente do Mercado Pago (API de Orders), sem o cliente precisar de conta.
+- **O pedido só vira "pago" quando o servidor consulta o Mercado Pago** e confere status, valor, moeda e referência. Voltar para a página de sucesso ou mandar `status=approved` na URL não libera nada.
+- Webhook com assinatura verificada e tolerante a duplicidade e a chegada fora de ordem; um cron reconcilia pagamentos cujo aviso se perdeu.
+- Fila de entregas com envio em um clique por WhatsApp ou e-mail, área administrativa com sessão assinada, rate limit, proteção CSRF e limpeza dos dados de pedidos não pagos (LGPD).
+- Testes de cada cenário de pagamento (aprovado, pendente, recusado, estorno, valor divergente, Mercado Pago fora do ar) com Vitest e PGlite, e CI com testes, tipos e build para Workers.
+
+### 🪞 [Minha Retrospectiva 2026](https://minha-retrospectiva-2026.pages.dev) — experiência pessoal com acesso controlado
+
+<sub><!-- auto:retrospectiva-versao -->v0.4.2<!-- /auto:retrospectiva-versao --> · JavaScript · Cloudflare Pages · Functions · D1</sub>
+
+Quiz de 20 perguntas que devolve uma leitura individual, montada por regras que cruzam as respostas, sem IA. Vendido como produto digital, com cada compra recebendo um código próprio.
+
+- **Acesso só por código individual**: no primeiro uso ele fica ligado ao e-mail e é recusado em qualquer outro.
+- **Uma resposta por código, contada no servidor**: limpar o navegador ou trocar de aparelho não libera outra.
+- Sem uso simultâneo: entrar em outro aparelho encerra a sessão anterior.
+- Link de compartilhamento que mostra só o resultado, sem nome, e-mail ou respostas.
+- Liberação de nova resposta pelo suporte com um workflow do GitHub Actions; deploy automático depois dos testes; dados guardados por prazo definido.
 
 ## Projetos em destaque
 
@@ -88,8 +118,6 @@ Simulação de vida em pixel art em que escolhas sobre estudo, trabalho, famíli
 | Projeto | Descrição | Tecnologias |
 |---|---|---|
 | [Sombraluz](https://sombraluz.pages.dev) | Survivor-like com progressão, equipamentos, missões e ranking online | HTML5 Canvas · JavaScript · Firebase · PWA |
-| Caminhos Abertos 2027 | Página de vendas com formulário obrigatório, Pix e cartão pelo Checkout Transparente do Mercado Pago; o pedido só é pago depois que o servidor confere o pagamento na API | Next.js 16 · TypeScript · Cloudflare Workers · Neon · Drizzle · Zod |
-| Minha Retrospectiva 2026 | Quiz pessoal de 20 perguntas com leitura feita por regras (sem IA); acesso por código individual ligado ao e-mail e validado no servidor, sem sessões simultâneas | Cloudflare Pages · Functions · D1 · JavaScript |
 | Tharveth *(em desenvolvimento)* | RPG de fantasia sombria para Roblox, com testes de lógica e simulação de combate com latência | Luau · Rojo · Lune · Roblox Studio |
 | Firewall FPS *(em desenvolvimento)* | FPS cooperativo de sobrevivência contra hordas | Unity 6 · C# · FishNet |
 | FinApp *(em desenvolvimento)* | Educação e organização financeira em português e inglês | Next.js · TypeScript · Prisma · PostgreSQL |
@@ -104,6 +132,8 @@ Simulação de vida em pixel art em que escolhas sobre estudo, trabalho, famíli
 | **[Ilumbá](https://rpg-espiritual.vercel.app)** | v0.87.0 | 06/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
 | **[Sombraluz](https://sombraluz.pages.dev)** | v0.45.0 | 31/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.pages.dev) |
 | **[Runas & Hordas](https://runas-e-hordas.pages.dev)** | v0.21.0 | 07/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Frunas-e-hordas.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://runas-e-hordas.pages.dev) |
+| **[Caminhos Abertos 2027](https://caminhos.abertos2027.workers.dev)** | v0.7.0 | 10/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fcaminhos.abertos2027.workers.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://caminhos.abertos2027.workers.dev) |
+| **[Minha Retrospectiva 2026](https://minha-retrospectiva-2026.pages.dev)** | v0.4.2 | 06/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fminha-retrospectiva-2026.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://minha-retrospectiva-2026.pages.dev) |
 
 <!-- /auto:status -->
 
