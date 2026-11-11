@@ -102,7 +102,7 @@ Simulação de vida em pixel art em que escolhas sobre estudo, trabalho, famíli
 |---|---|---|---|---|
 | **[HackQuiz](https://hackquiz-blackbox.vercel.app)** | v1.5.3 | 29/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fhackquiz-blackbox.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://hackquiz-blackbox.vercel.app) |
 | **[Ilumbá](https://rpg-espiritual.vercel.app)** | v0.87.0 | 06/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
-| **[Sombraluz](https://sombraluz.vercel.app)** | v0.45.0 | 31/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.vercel.app) |
+| **[Sombraluz](https://sombraluz.vercel.app)** | v0.41.0 | 31/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.vercel.app) |
 | **[Runas & Hordas](https://runas-e-hordas.pages.dev)** | v0.21.0 | 07/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Frunas-e-hordas.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://runas-e-hordas.pages.dev) |
 
 <!-- /auto:status -->
