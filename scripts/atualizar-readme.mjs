@@ -26,8 +26,8 @@ const PROJETOS = [
     versaoPublica: async () => (await texto('https://hackquiz-blackbox.vercel.app/')).match(/Versão (\d+\.\d+\.\d+)/)?.[1],
   },
   {
-    id: 'rpg', nome: 'Ilumbá', repo: 'RPG_espiritual', site: 'https://rpg-espiritual.vercel.app',
-    versaoPublica: async () => JSON.parse(await texto('https://rpg-espiritual.vercel.app/version.json')).version,
+    id: 'rpg', nome: 'Ilumbá', repo: 'RPG_espiritual', site: 'https://ilumba.vercel.app',
+    versaoPublica: async () => JSON.parse(await texto('https://ilumba.vercel.app/version.json')).version,
   },
   {
     id: 'sombraluz', nome: 'Sombraluz', repo: 'sombraluz', site: 'https://sombraluz.pages.dev',

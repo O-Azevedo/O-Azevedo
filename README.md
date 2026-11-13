@@ -51,7 +51,7 @@ Produtos publicados e em operação, com pagamento, controle de acesso e dados p
 
 ### 🔮 [Caminhos Abertos 2027](https://caminhos.abertos2027.workers.dev) — loja de análise personalizada
 
-<sub><!-- auto:caminhos-versao -->v0.7.0<!-- /auto:caminhos-versao --> · Next.js 16 · TypeScript · Cloudflare Workers · Neon (PostgreSQL) · Mercado Pago</sub>
+<sub><!-- auto:caminhos-versao -->v1.0.0<!-- /auto:caminhos-versao --> · Next.js 16 · TypeScript · Cloudflare Workers · Neon (PostgreSQL) · Mercado Pago</sub>
 
 Página de vendas de uma análise personalizada para 2027 (numerologia, Baralho Cigano e Tarot), entregue em áudios e PDF. O fluxo vai da venda à entrega sem planilha nem conferência manual de comprovante.
 
@@ -64,9 +64,9 @@ Página de vendas de uma análise personalizada para 2027 (numerologia, Baralho 
 
 ### 🪞 [Minha Retrospectiva 2026](https://minha-retrospectiva-2026.pages.dev) — experiência pessoal com acesso controlado
 
-<sub><!-- auto:retrospectiva-versao -->v0.4.2<!-- /auto:retrospectiva-versao --> · JavaScript · Cloudflare Pages · Functions · D1</sub>
+<sub><!-- auto:retrospectiva-versao -->v0.5.1<!-- /auto:retrospectiva-versao --> · JavaScript · Cloudflare Pages · Functions · D1</sub>
 
-Quiz de 20 perguntas que devolve uma leitura individual, montada por regras que cruzam as respostas, sem IA. Vendido como produto digital, com cada compra recebendo um código próprio.
+Quiz de 15 perguntas, com vereditos escritos à mão, que devolve uma leitura individual, montada por regras que cruzam as respostas, sem IA. Vendido como produto digital, com cada compra recebendo um código próprio.
 
 - **Acesso só por código individual**: no primeiro uso ele fica ligado ao e-mail e é recusado em qualquer outro.
 - **Uma resposta por código, contada no servidor**: limpar o navegador ou trocar de aparelho não libera outra.
@@ -101,7 +101,7 @@ Ação de fantasia medieval com visual cartoon em vetor, para celular e PC diret
 - Progressão entre partidas (atributos, equipamentos com raridade, missões e loja) e save na nuvem com conta Google.
 - **96 testes** da lógica pura e uma simulação com bot em relógio acelerado.
 
-### 🌅 [Ilumbá](https://rpg-espiritual.vercel.app) — RPG 2D de vida e pós-vida
+### 🌅 [Ilumbá](https://ilumba.vercel.app) — RPG 2D de vida e pós-vida
 
 <sub><!-- auto:rpg-versao -->v0.87.0<!-- /auto:rpg-versao --> · Godot 4 · GDScript · exportação web</sub>
 
@@ -120,7 +120,7 @@ Simulação de vida em pixel art em que escolhas sobre estudo, trabalho, famíli
 | [Sombraluz](https://sombraluz.pages.dev) | Survivor-like com progressão, equipamentos, missões e ranking online | HTML5 Canvas · JavaScript · Firebase · PWA |
 | Tharveth *(em desenvolvimento)* | RPG de fantasia sombria para Roblox, com testes de lógica e simulação de combate com latência | Luau · Rojo · Lune · Roblox Studio |
 | Firewall FPS *(em desenvolvimento)* | FPS cooperativo de sobrevivência contra hordas | Unity 6 · C# · FishNet |
-| FinApp *(em desenvolvimento)* | Educação e organização financeira em português e inglês | Next.js · TypeScript · Prisma · PostgreSQL |
+| [FinApp](https://finapp-six-topaz.vercel.app) *(MVP no ar)* | Educação e organização financeira em português e inglês, no ar como "Grana no Controle" (nome provisório) | Next.js · TypeScript · Prisma · PostgreSQL |
 
 ## Situação dos projetos
 
@@ -129,11 +129,11 @@ Simulação de vida em pixel art em que escolhas sobre estudo, trabalho, famíli
 | Projeto | Versão | Lançada em | Commits (30 dias) | Site |
 |---|---|---|---|---|
 | **[HackQuiz](https://hackquiz-blackbox.vercel.app)** | v1.5.3 | 29/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fhackquiz-blackbox.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://hackquiz-blackbox.vercel.app) |
-| **[Ilumbá](https://rpg-espiritual.vercel.app)** | v0.87.0 | 06/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Frpg-espiritual.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://rpg-espiritual.vercel.app) |
+| **[Ilumbá](https://ilumba.vercel.app)** | v0.87.0 | 06/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Filumba.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://ilumba.vercel.app) |
 | **[Sombraluz](https://sombraluz.pages.dev)** | v0.45.0 | 31/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.pages.dev) |
 | **[Runas & Hordas](https://runas-e-hordas.pages.dev)** | v0.24.0 | 07/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Frunas-e-hordas.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://runas-e-hordas.pages.dev) |
-| **[Caminhos Abertos 2027](https://caminhos.abertos2027.workers.dev)** | v0.7.0 | 10/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fcaminhos.abertos2027.workers.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://caminhos.abertos2027.workers.dev) |
-| **[Minha Retrospectiva 2026](https://minha-retrospectiva-2026.pages.dev)** | v0.4.2 | 06/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fminha-retrospectiva-2026.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://minha-retrospectiva-2026.pages.dev) |
+| **[Caminhos Abertos 2027](https://caminhos.abertos2027.workers.dev)** | v1.0.0 | 13/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fcaminhos.abertos2027.workers.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://caminhos.abertos2027.workers.dev) |
+| **[Minha Retrospectiva 2026](https://minha-retrospectiva-2026.pages.dev)** | v0.5.1 | 13/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fminha-retrospectiva-2026.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://minha-retrospectiva-2026.pages.dev) |
 
 <!-- /auto:status -->
 
