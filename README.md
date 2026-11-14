@@ -78,7 +78,7 @@ Quiz de 15 perguntas, com vereditos escritos à mão, que devolve uma leitura in
 
 ### 🛡️ [HackQuiz](https://hackquiz-blackbox.vercel.app) — aprendizagem em cibersegurança
 
-<sub><!-- auto:hackquiz-versao -->v1.5.4<!-- /auto:hackquiz-versao --> · HTML/CSS/JS · Firebase · Vercel</sub>
+<sub><!-- auto:hackquiz-versao -->v1.5.5<!-- /auto:hackquiz-versao --> · HTML/CSS/JS · Firebase · Vercel</sub>
 
 Plataforma em português para estudar segurança da informação por competências: **<!-- auto:hackquiz-perguntas -->173<!-- /auto:hackquiz-perguntas --> perguntas em <!-- auto:hackquiz-materias -->9<!-- /auto:hackquiz-materias --> matérias**, **<!-- auto:hackquiz-exercicios -->30<!-- /auto:hackquiz-exercicios --> exercícios práticos** e um glossário de <!-- auto:hackquiz-termos -->57<!-- /auto:hackquiz-termos --> termos, com explicações referenciadas e repetição espaçada.
 
@@ -103,7 +103,7 @@ Ação de fantasia medieval com visual cartoon em vetor, para celular e PC diret
 
 ### 🌅 [Ilumbá](https://ilumba.vercel.app) — RPG 2D de vida e pós-vida
 
-<sub><!-- auto:rpg-versao -->v0.87.0<!-- /auto:rpg-versao --> · Godot 4 · GDScript · exportação web</sub>
+<sub><!-- auto:rpg-versao -->v0.98.0<!-- /auto:rpg-versao --> · Godot 4 · GDScript · exportação web</sub>
 
 Simulação de vida em pixel art em que escolhas sobre estudo, trabalho, família e espiritualidade moldam a jornada, que continua depois da morte.
 
@@ -128,8 +128,8 @@ Simulação de vida em pixel art em que escolhas sobre estudo, trabalho, famíli
 
 | Projeto | Versão | Lançada em | Commits (30 dias) | Site |
 |---|---|---|---|---|
-| **[HackQuiz](https://hackquiz-blackbox.vercel.app)** | v1.5.4 | 29/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fhackquiz-blackbox.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://hackquiz-blackbox.vercel.app) |
-| **[Ilumbá](https://ilumba.vercel.app)** | v0.87.0 | 06/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Filumba.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://ilumba.vercel.app) |
+| **[HackQuiz](https://hackquiz-blackbox.vercel.app)** | v1.5.5 | 29/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fhackquiz-blackbox.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://hackquiz-blackbox.vercel.app) |
+| **[Ilumbá](https://ilumba.vercel.app)** | v0.98.0 | 06/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Filumba.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://ilumba.vercel.app) |
 | **[Sombraluz](https://sombraluz.pages.dev)** | v0.45.1 | 31/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.pages.dev) |
 | **[Runas & Hordas](https://runas-e-hordas.pages.dev)** | v0.24.0 | 07/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Frunas-e-hordas.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://runas-e-hordas.pages.dev) |
 | **[Caminhos Abertos 2027](https://caminhos.abertos2027.workers.dev)** | v1.0.1 | 13/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fcaminhos.abertos2027.workers.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://caminhos.abertos2027.workers.dev) |
@@ -137,7 +137,7 @@ Simulação de vida em pixel art em que escolhas sobre estudo, trabalho, famíli
 
 <!-- /auto:status -->
 
-<sub>Tabela, versões e números do HackQuiz atualizados por uma GitHub Action deste repositório. Última mudança: <!-- auto:atualizado -->13/11/2026<!-- /auto:atualizado -->.</sub>
+<sub>Tabela, versões e números do HackQuiz atualizados por uma GitHub Action deste repositório. Última mudança: <!-- auto:atualizado -->14/11/2026<!-- /auto:atualizado -->.</sub>
 
 ## Competências
 
