@@ -19,11 +19,21 @@ const DONO = 'O-Azevedo';
 const README = new URL('../README.md', import.meta.url);
 const TOKEN = process.env.PROFILE_TOKEN || '';
 
+// A ordem aqui é a ordem da tabela: o projeto principal e o bônus primeiro,
+// depois os outros produtos no ar, depois os jogos.
+// Os que não têm `versaoPublica` não publicam a versão no site: só o token (releases) atualiza.
 const PROJETOS = [
+  { id: 'cocrie', nome: 'Co(Crie) Seu Ano', repo: 'cocrie-seu-ano', site: 'https://cocrie-seu-ano.abertos2027.workers.dev' },
+  { id: 'retrospectiva', nome: 'Minha Retrospectiva 2026', repo: 'minha-retrospectiva-2026', site: 'https://minha-retrospectiva-2026.pages.dev' },
+  { id: 'caminhos', nome: 'Caminhos Abertos 2027', repo: 'caminhos-abertos-2027', site: 'https://caminhos.abertos2027.workers.dev' },
   {
     id: 'hackquiz', nome: 'HackQuiz', repo: 'hackquiz', site: 'https://hackquiz-blackbox.vercel.app',
     // A landing mostra "Versão X.Y.Z" no rodapé.
     versaoPublica: async () => (await texto('https://hackquiz-blackbox.vercel.app/')).match(/Versão (\d+\.\d+\.\d+)/)?.[1],
+  },
+  {
+    id: 'runas', nome: 'Runas & Hordas', repo: 'runas-e-hordas', site: 'https://runas-e-hordas.pages.dev',
+    versaoPublica: async () => JSON.parse(await texto('https://runas-e-hordas.pages.dev/version.json')).version,
   },
   {
     id: 'rpg', nome: 'Ilumbá', repo: 'RPG_espiritual', site: 'https://ilumba.vercel.app',
@@ -33,13 +43,6 @@ const PROJETOS = [
     id: 'sombraluz', nome: 'Sombraluz', repo: 'sombraluz', site: 'https://sombraluz.pages.dev',
     versaoPublica: async () => JSON.parse(await texto('https://sombraluz.pages.dev/version.json')).version,
   },
-  {
-    id: 'runas', nome: 'Runas & Hordas', repo: 'runas-e-hordas', site: 'https://runas-e-hordas.pages.dev',
-    versaoPublica: async () => JSON.parse(await texto('https://runas-e-hordas.pages.dev/version.json')).version,
-  },
-  // Os dois serviços não publicam a versão no site: só o token (releases) atualiza.
-  { id: 'caminhos', nome: 'Caminhos Abertos 2027', repo: 'caminhos-abertos-2027', site: 'https://caminhos.abertos2027.workers.dev' },
-  { id: 'retrospectiva', nome: 'Minha Retrospectiva 2026', repo: 'minha-retrospectiva-2026', site: 'https://minha-retrospectiva-2026.pages.dev' },
 ];
 
 async function texto(url, headers = {}) {
