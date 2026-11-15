@@ -139,12 +139,12 @@ Projetos em que exercito arquitetura de conteúdo, simulação e testes automati
 | **[Caminhos Abertos 2027](https://caminhos.abertos2027.workers.dev)** | v1.0.1 | 13/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fcaminhos.abertos2027.workers.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://caminhos.abertos2027.workers.dev) |
 | **[HackQuiz](https://hackquiz-blackbox.vercel.app)** | v1.5.5 | 29/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fhackquiz-blackbox.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://hackquiz-blackbox.vercel.app) |
 | **[Runas & Hordas](https://runas-e-hordas.pages.dev)** | v0.24.0 | 07/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Frunas-e-hordas.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://runas-e-hordas.pages.dev) |
-| **[Ilumbá](https://ilumba.vercel.app)** | v0.98.0 | 06/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Filumba.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://ilumba.vercel.app) |
+| **[Ilumbá](https://ilumba.vercel.app)** | v0.100.0 | 06/11/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Filumba.vercel.app&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://ilumba.vercel.app) |
 | **[Sombraluz](https://sombraluz.pages.dev)** | v0.45.1 | 31/10/2026 | — | [![site](https://img.shields.io/website?url=https%3A%2F%2Fsombraluz.pages.dev&label=&up_message=no%20ar&down_message=fora%20do%20ar&style=flat-square)](https://sombraluz.pages.dev) |
 
 <!-- /auto:status -->
 
-<sub>Tabela, versões e números do HackQuiz atualizados por uma GitHub Action deste repositório. Última mudança: <!-- auto:atualizado -->14/11/2026<!-- /auto:atualizado -->.</sub>
+<sub>Tabela, versões e números do HackQuiz atualizados por uma GitHub Action deste repositório. Última mudança: <!-- auto:atualizado -->15/11/2026<!-- /auto:atualizado -->.</sub>
 
 ## Competências
 
